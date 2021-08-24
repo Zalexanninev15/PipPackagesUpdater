@@ -1,2 +1,23 @@
 # PipPackagesUpdater
- A Python script for to update the pip utility and all installed packages (libraries) to the latest versions
+
+[![](https://img.shields.io/badge/platforms-All_with_Python-orange.svg)](https://github.com/Zalexanninev15/WebWordSearch)
+[![](https://img.shields.io/badge/release-v1.0-blue.svg)](https://github.com/Zalexanninev15/WebWordSearch)
+[![](https://img.shields.io/github/last-commit/Zalexanninev15/WebWordSearch.svg)](https://github.com/Zalexanninev15/WebWordSearch/commits/master)
+[![](https://img.shields.io/github/stars/Zalexanninev15/WebWordSearch.svg)](https://github.com/Zalexanninev15/WebWordSearch/stargazers)
+[![](https://img.shields.io/github/forks/Zalexanninev15/WebWordSearch.svg)](https://github.com/Zalexanninev15/WebWordSearch/network/members)
+[![](https://img.shields.io/badge/license-GPLv3-ligthgreen.svg)](LICENSE)
+[![](https://img.shields.io/badge/donate_and_read_news-Boosty-F0672B.svg)](https://boosty.to/maxik-zalexanninev15)
+[![](https://img.shields.io/badge/donate-QIWI-FF8C00.svg)](https://qiwi.com/n/ZALEXANNINEV15)
+[![](https://img.shields.io/badge/donate-YooMoney-8B3FFD.svg)](https://yoomoney.ru/to/410015106319420)
+
+## Description
+
+A Python script for to update the pip utility and all installed packages (libraries) to the latest versions
+
+## Usage
+
+Do the following in terminal
+
+```bash
+python ./ppu.py
+```
