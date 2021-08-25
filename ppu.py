@@ -19,20 +19,18 @@ import pip
 
 print('''PipPackagesUpdater  Copyright (C) 2021  Zalexanninev15
 This program comes with ABSOLUTELY NO WARRANTY.
-This is free software, and you are welcome to redistribute it
-under certain conditions.
-''')
-print('PipPackagesUpdater v1.0.1 by Zalexanninev15')
+This is free software, and you are welcome to redistribute it under certain conditions.''')
+print('PipPackagesUpdater v1.0.2 by Zalexanninev15')
 
 # Update pip
 print("\n[!] Updating the 'pip' package manager...\n\nShell:")
 sbp.run('pip install --upgrade pip', shell=True)
-print('\n[+] Completed!')
+print('\n[+] Completed!\n')
 
 # List of all packages
 print('[!] Looking for all the installed packages...')
 pkgs = eval(str(sbp.run('pip list -o --format=json', shell=True, stdout=sbp.PIPE).stdout, encoding='utf-8'))
-print('[+] A list of packages has been created!')
+print('[+] A list of packages has been created!\n')
 
 # Update all packages
 print('[!] Updating the installed packages...')
