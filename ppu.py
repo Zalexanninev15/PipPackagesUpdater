@@ -20,7 +20,7 @@ import pip
 print('''PipPackagesUpdater  Copyright (C) 2021  Zalexanninev15
 This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it under certain conditions.''')
-print('PipPackagesUpdater v1.0.2 by Zalexanninev15')
+print('\nPipPackagesUpdater v1.0.2 by Zalexanninev15')
 
 # Update pip
 print("\n[!] Updating the 'pip' package manager...\n\nShell:")
