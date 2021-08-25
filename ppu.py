@@ -1,4 +1,4 @@
-# A Python script for to update the pip utility and all installed packages (libraries) to the latest versions
+# Script for to update the pip utility and all installed packages (libraries) to the latest versions
 # Copyright (C) 2021 Zalexanninev15
 
 # This program is free software: you can redistribute it and/or modify
@@ -31,7 +31,7 @@ print('\n[+] Completed!')
 
 # List of all packages
 print("[!] Looking for all the installed packages...")
-pkgs = eval(str(sbp.run("pip list -o --format=json", stdout=sbp.PIPE).stdout, encoding='utf-8'))
+pkgs = eval(str(sbp.run("pip list -o --format=json", stdout=sbp.PIPE).stdout, shell=True, encoding='utf-8'))
 print('[+] A list of packages has been created!')
 
 # Update all packages
