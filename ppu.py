@@ -22,23 +22,23 @@ This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it
 under certain conditions.
 ''')
-print('PipPackagesUpdater v1.0 by Zalexanninev15')
+print('PipPackagesUpdater v1.0.1 by Zalexanninev15')
 
 # Update pip
 print("\n[!] Updating the 'pip' package manager...\n\nShell:")
-sbp.run("pip install --upgrade pip", shell=True)
+sbp.run('pip install --upgrade pip', shell=True)
 print('\n[+] Completed!')
 
 # List of all packages
-print("[!] Looking for all the installed packages...")
-pkgs = eval(str(sbp.run("pip list -o --format=json", stdout=sbp.PIPE).stdout, shell=True, encoding='utf-8'))
+print('[!] Looking for all the installed packages...')
+pkgs = eval(str(sbp.run('pip list -o --format=json', shell=True, stdout=sbp.PIPE).stdout, encoding='utf-8'))
 print('[+] A list of packages has been created!')
 
 # Update all packages
 print('[!] Updating the installed packages...')
 for pkg in pkgs:
     print('[!] Updating the package ' + pkg['name'] + '...\n\nShell:')
-    sbp.run("pip install --upgrade " + pkg['name'], shell=True)
+    sbp.run('pip install --upgrade ' + pkg['name'], shell=True)
     print('\n[+] The ' + pkg['name'] +' package has been updated!')
 
-print('[+] All packages updated!')
+print('\n[+] All packages updated!')
