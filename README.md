@@ -1,7 +1,7 @@
 # PipPackagesUpdater
 
 [![](https://img.shields.io/badge/platforms-All_with_Python-orange.svg)](https://github.com/Zalexanninev15/PipPackagesUpdater)
-[![](https://img.shields.io/badge/release-v1.0-blue.svg)](https://github.com/Zalexanninev15/PipPackagesUpdater)
+[![](https://img.shields.io/badge/release-v1.0.2-1-blue.svg)](https://github.com/Zalexanninev15/PipPackagesUpdater)
 [![](https://img.shields.io/github/last-commit/Zalexanninev15/PipPackagesUpdater.svg)](https://github.com/Zalexanninev15/PipPackagesUpdater/commits/master)
 [![](https://img.shields.io/github/stars/Zalexanninev15/PipPackagesUpdater.svg)](https://github.com/Zalexanninev15/PipPackagesUpdater/stargazers)
 [![](https://img.shields.io/github/forks/Zalexanninev15/PipPackagesUpdater.svg)](https://github.com/Zalexanninev15/PipPackagesUpdater/network/members)

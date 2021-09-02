@@ -20,7 +20,7 @@ import pip
 print('''PipPackagesUpdater  Copyright (C) 2021  Zalexanninev15
 This program comes with ABSOLUTELY NO WARRANTY.
 This is free software, and you are welcome to redistribute it under certain conditions.''')
-print('\nPipPackagesUpdater v1.0.2 by Zalexanninev15')
+print('\nPipPackagesUpdater v1.0.2-1 by Zalexanninev15')
 
 # Update pip
 print("\n[!] Updating the 'pip' package manager...\n\nShell:")
@@ -33,10 +33,10 @@ pkgs = eval(str(sbp.run('pip list -o --format=json', shell=True, stdout=sbp.PIPE
 print('[+] A list of packages has been created!\n')
 
 # Update all packages
-print('[!] Updating the installed packages...')
+print('[!] Updating the installed packages...\n')
 for pkg in pkgs:
     print('[!] Updating the package ' + pkg['name'] + '...\n\nShell:')
     sbp.run('pip install --upgrade ' + pkg['name'], shell=True)
-    print('\n[+] The ' + pkg['name'] +' package has been updated!')
+    print('\n[+] The ' + pkg['name'] +' package has been updated!\n')
 
-print('\n[+] All packages updated!')
+print('[+] All packages updated!')
