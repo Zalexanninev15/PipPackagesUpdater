@@ -1,5 +1,5 @@
 # Script for to update the pip utility and all installed packages (libraries) to the latest versions
-# Copyright (C) 2021 Zalexanninev15
+# Copyright (C) 2021-2025 Zalexanninev15
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
